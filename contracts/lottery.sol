@@ -83,6 +83,7 @@ contract lottery is VRFConsumerBase, Ownable {
     {
         winner = players[randomness % players.length];
         winner.transfer(address(this).balance);
+        players = new address payable[](0);
         current_state = state.CLOSE;
     }
 }

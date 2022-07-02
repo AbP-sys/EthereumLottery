@@ -9,7 +9,7 @@ def end_lottery():
     bal = lottery[-1].balance()
     tx = lottery[-1].end_lottery({"from": get_account()})
     tx.wait(1)
-    time.sleep(120)
+    time.sleep(60)
     print(f"{lottery[-1].winner()} won {bal} Gwei")
 
 

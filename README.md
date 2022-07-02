@@ -12,7 +12,7 @@ Lottery game deployed on the ethereum blockchain
   Note: This is purely for testing and demonstration purposes. No real value currency or tokens are being used.
   - Setup an Ethereum wallet
   - Ensure you have ETH on the Rinkeby testnet. If not, you can request some funds using a [Rinkeby faucet](https://rinkebyfaucet.com/)
-  - Open the deployed contract on [Rinkeby EtherScan](https://rinkeby.etherscan.io/address/0x87DCAE0F91F382Af5d3701EecF1FDBc52AB9AC3e#readContract)
+  - Open the deployed contract on [Rinkeby EtherScan](https://rinkeby.etherscan.io/address/0x4a635E60b59C47CAb7B3e710064A2349c83F7bC7#readContract)
   - Check ticket price using the get_ticket_price function
   - Switch to the `write` tab and buy a ticket by spending some testnet ETH
   - Authorize transaction from your ethereum wallet 
