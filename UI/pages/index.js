@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Web3 from 'web3'
@@ -143,7 +142,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>GenZ Lottery</title>
+        <title>Ethereum Lottery</title>
         <meta name="description" content="An Ethereum Lottery dApp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -152,7 +151,7 @@ export default function Home() {
         <nav className="navbar is-dark mt-0 mb-4">
           <div className="container">
             <div className="navbar-brand">
-              <h1>GenZ Lottery</h1>
+              <h1>Ethereum Lottery</h1>
             </div>
             <div className="navbar-end">
               <button onClick={connectWalletHandler} className="button is-link">Connect Wallet</button>
